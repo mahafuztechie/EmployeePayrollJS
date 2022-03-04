@@ -23,7 +23,7 @@
         <label class="label text" for="name">Name</label>
         <input class="input" type="text" id="name" name="name"
                 placeholder="Your name.." required>
-        <error-output class="text-error" for="text"></error-output> 
+        <output class="text-error" for="text"></output> 
       </div>
       
       <div class="row-content">
@@ -62,17 +62,17 @@
         </div>
       </div>
       <div class="row-content">
-        <label class="label text" for="department">Department</label>
+        <label class="label text" for="dept">Department</label>
         <div>
-          <input class="checkbox" type="checkbox" id="hr" name="department" value="HR">
+          <input class="checkbox" type="checkbox" id="hr" name="dept" value="HR">
           <label class="text" for="hr">HR</label>
-          <input class="checkbox" type="checkbox" id="sales" name="department" value="Sales">
+          <input class="checkbox" type="checkbox" id="sales" name="dept" value="Sales">
           <label class="text" for="sales">Sales</label>
-          <input class="checkbox" type="checkbox" id="finance" name="department" value="Finance">
+          <input class="checkbox" type="checkbox" id="finance" name="dept" value="Finance">
           <label class="text" for="finance">Finance</label>
-          <input class="checkbox" type="checkbox" id="engineer" name="department" value="Engineer">
+          <input class="checkbox" type="checkbox" id="engineer" name="dept" value="Engineer">
           <label class="text" for="engineer">Engineer</label>
-          <input class="checkbox" type="checkbox" id="others" name="department" value="Others">
+          <input class="checkbox" type="checkbox" id="others" name="dept" value="Others">
           <label class="text" for="others">Others</label>
         </div>
       </div>
@@ -155,13 +155,13 @@
       <div class="buttonParent">
         <a href="./EmployeePayrollform.html" class=" button cancelButton">Cancel</a>
         <div class="submit-reset">
-          <button type="submit" onclick="save(event)"class="button submitButton" id="submitButton">Submit</button>
+          <button type="submit" onclick="save()"class="button submitButton" id="submitButton">Submit</button>
           <button type="reset" onclick="resetForm()" class="resetButton button">Reset</button>
         </div>
       </div>
     </div>
   </div>
-  <script src="../js/EmpPayrollData.js"></script>
+  <script src="../js/EmployeePayrollData.js"></script>
   <script src="../js/EmpPayrollForm.js"></script>
 </body>
 </html>

@@ -117,7 +117,7 @@ select {
   background-color: transparent;
 }
 
-error-output {
+output {
   font-size: 12px;
   font-style: italic;
   color: red;
