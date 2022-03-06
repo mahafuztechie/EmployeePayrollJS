@@ -71,27 +71,27 @@ class EmployeePayrollData {
         : this.startDate.toLocaleDateString("en-US", options);
     return (
       "id= " +
-      this.id +
+      this._id +
       " name = " +
-      this.name +
+      this._name +
       " picture= " +
-      this.picture +
+      this._picture +
       " gender = " +
-      this.gender +
+      this._gender +
       " department = " +
-      this.department +
+      this._department +
       " salary = " +
-      this.salary +
+      this._salary +
       " startDate= " +
-      this.startDate +
+      this._startDate +
       " note= " +
-      this.note
+      this._note
     );
   }
   isValid() {
     let error = false;
-    error = this.startDate != "" || this.name != "";
-    console.log(this.startDate, this.name);
+    error = this._startDate != "" || this._name != "";
+    console.log(this._startDate, this._name);
     return error;
   }
 }

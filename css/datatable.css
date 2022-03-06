@@ -77,10 +77,11 @@ h1 {
 .add-button {
   font-size: 22px;
   font-family: Roboto;
+  text-align: center;
   color: #ffffff;
   font-weight: 400;
   min-width: 140px;
-  padding: 5px 18px;
+  padding: 10px;
   cursor: pointer;
   background: #82a70c 0% 0% no-repeat padding-box;
   border: 1px solid #969696;
@@ -116,11 +117,11 @@ th {
 .icon-name {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
-.icon-name > img {
-  width: 40px;
-  height: 40px;
+.profile-img {
+  width: 30px;
+  height: 30px;
   margin-left: -15px;
 }
 .depart {
@@ -129,14 +130,16 @@ th {
   border-radius: 10px;
   padding: 3px 6px;
 }
-.delete-icon {
-  margin-right: 20px;
+.delete-icon,
+.edit-icon {
+  margin-right: 10px;
+  width: 25px;
+  height: 28px;
+  cursor: pointer;
 }
 .delete-icon:hover {
   color: red;
-  cursor: pointer;
 }
 .edit-icon:hover {
   color: blue;
-  cursor: pointer;
 }

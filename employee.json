@@ -1,0 +1,14 @@
+{
+    "employees": [
+    {
+      "id":1,
+      "_name": "Bill",
+      "_picture": "../assets/profile-images/Ellipse-2.png",
+      "_gender": "male",
+      "_department": ",Engineer",
+      "_salary": "74900",
+      "_note": "expert in various technologies",
+      "_startDate": "2022-01-04T18:30:00.000Z"
+        }
+    ]
+}
